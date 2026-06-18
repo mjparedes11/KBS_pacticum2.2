@@ -1,0 +1,9 @@
+====================================
+RESUMEN DEL ANALISIS
+====================================
+
+Documentos validos: 128159
+Documentos invalidos: 0
+Campos detectados: 289
+Profundidad maxima: 9
+Esquemas distintos: 152

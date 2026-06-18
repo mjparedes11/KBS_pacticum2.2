@@ -1,0 +1,346 @@
+Field,Type,Frequency,Percent,Examples
+_id,ObjectId,128159,100.0,{'$oid': '55c4f2f1ec4a8977f7a31a0c'} | {'$oid': '55c4eba3ec4a89783ca31a0c'} | {'$oid': '55c4e4ddec4a897835a31a0b'} | {'$oid': '55c4eba3ec4a89783ca31a0d'} | {'$oid': '55c4e4ddec4a897835a31a08'}
+_id.$oid,String,128159,100.0,55c4eba3ec4a89783ca31a0c | 55c4eba3ec4a89783ca31a0d | 55c4e4ddec4a897835a31a08 | 55c4f2f1ec4a8977f7a31a0c | 55c4e4ddec4a897835a31a0b
+blocks,Array,128159,100.0,"[{'definition': {'$oid': '55c4f2f1ec4a8977f7a31a0e'}, 'block_type': 'course', 'block_id': 'course', 'fields': {'tabs': [{'type': 'courseware', 'name': | [{'definition': {'$oid': '55c4eba3ec4a89783ca31a10'}, 'block_type': 'about', 'block_id': 'effort', 'fields': {'children': []}, 'defaults': {}, 'edit_i | [{'definition': {'$oid': '55c7ef16ec4a897814a31a0a'}, 'block_type': 'course', 'block_id': 'course', 'fields': {'tabs': [{'type': 'courseware', 'name': | [{'definition': {'$oid': '55c4e4ddec4a897835a31a0a'}, 'block_type': 'course', 'block_id': 'course', 'fields': {'tabs': [{'type': 'courseware', 'name': | [{'definition': {'$oid': '55c4eba3ec4a89783ca31a10'}, 'block_type': 'about', 'block_id': 'effort', 'fields': {}, 'defaults': {}, 'edit_info': {'edited"
+blocks[],Array,128159,100.0,
+blocks[].block_id,String,19378403,15120.59,course | entrance_exam_enabled | effort | entrance_exam_minimum_score_pct | overview
+blocks[].block_type,String,19378403,15120.59,chapter | sequential | course | about | course_info
+blocks[].defaults,Object,19378403,15120.59,{}
+blocks[].definition,ObjectId,19378403,15120.59,{'$oid': '55c4eba3ec4a89783ca31a10'} | {'$oid': '55c4e4ddec4a897835a31a0c'} | {'$oid': '55c4eba3ec4a89783ca31a11'} | {'$oid': '55c4eba3ec4a89783ca31a0f'} | {'$oid': '55c4e4ddec4a897835a31a0a'}
+blocks[].definition.$oid,String,19378403,15120.59,55c4e4ddec4a897835a31a0c | 55c4eba3ec4a89783ca31a0f | 55c4e4ddec4a897835a31a0a | 55c4eba3ec4a89783ca31a11 | 55c4eba3ec4a89783ca31a10
+blocks[].edit_info,Object,19378403,15120.59,"{'edited_by': {'$numberLong': '105'}, 'previous_version': None, 'original_usage_version': None, 'original_usage': None, 'edited_on': {'$date': '2015-0 | {'edited_by': {'$numberLong': '104'}, 'previous_version': {'$oid': '55c4e4ddec4a897835a31a0b'}, 'original_usage_version': None, 'original_usage': None | {'edited_by': {'$numberLong': '104'}, 'previous_version': {'$oid': '55c4e4ddec4a897835a31a08'}, 'original_usage_version': None, 'original_usage': None | {'edited_by': {'$numberLong': '104'}, 'previous_version': {'$oid': '55c4eba3ec4a89783ca31a0d'}, 'original_usage_version': None, 'original_usage': None | {'edited_by': {'$numberLong': '104'}, 'previous_version': None, 'original_usage_version': None, 'original_usage': None, 'edited_on': {'$date': '2015-0"
+blocks[].edit_info.edited_by,Long,19378403,15120.59,{'$numberLong': '20'} | {'$numberLong': '106'} | {'$numberLong': '108'} | {'$numberLong': '104'} | {'$numberLong': '105'}
+blocks[].edit_info.edited_by.$numberLong,String,19374308,15117.4,104 | 105 | 106 | 108 | 20
+blocks[].edit_info.edited_on,Date,19378403,15120.59,{'$date': '2015-08-07T12:03:25.530-0500'} | {'$date': '2015-08-07T12:32:19.176-0500'} | {'$date': '2015-08-07T12:03:25.561-0500'} | {'$date': '2015-08-07T12:03:25.558-0500'} | {'$date': '2015-08-07T12:03:25.550-0500'}
+blocks[].edit_info.edited_on.$date,String,19378403,15120.59,2015-08-07T12:03:25.530-0500 | 2015-08-07T12:03:25.558-0500 | 2015-08-07T12:32:19.176-0500 | 2015-08-07T12:03:25.561-0500 | 2015-08-07T12:03:25.550-0500
+blocks[].edit_info.original_usage,Null,19378403,15120.59,None
+blocks[].edit_info.original_usage_version,Null,19378403,15120.59,None
+blocks[].edit_info.previous_version,ObjectId,19378403,15120.59,None | {'$oid': '55c4f2f1ec4a8977f7a31a0f'} | {'$oid': '55c4e4ddec4a897835a31a0b'} | {'$oid': '55c4eba3ec4a89783ca31a0d'} | {'$oid': '55c4e4ddec4a897835a31a08'}
+blocks[].edit_info.previous_version.$oid,String,18032932,14070.75,55c4f2f1ec4a8977f7a31a0f | 55c4eba3ec4a89783ca31a0d | 55c7ef16ec4a897814a31a0b | 55c4e4ddec4a897835a31a08 | 55c4e4ddec4a897835a31a0b
+blocks[].edit_info.source_version,Null,19378403,15120.59,None | {'$oid': '55c4f2f1ec4a8977f7a31a0c'} | {'$oid': '55c4eba3ec4a89783ca31a0c'} | {'$oid': '55c7ef16ec4a897814a31a08'} | {'$oid': '55c4e4ddec4a897835a31a08'}
+blocks[].edit_info.source_version.$oid,String,6944655,5418.78,55c4eba3ec4a89783ca31a0c | 55c7ef2dec4a8977eba31a08 | 55c7ef16ec4a897814a31a08 | 55c4e4ddec4a897835a31a08 | 55c4f2f1ec4a8977f7a31a0c
+blocks[].edit_info.update_version,ObjectId,19378403,15120.59,{'$oid': '55c4f2f1ec4a8977f7a31a0c'} | {'$oid': '55c4eba3ec4a89783ca31a0c'} | {'$oid': '55c4e4ddec4a897835a31a0b'} | {'$oid': '55c4eba3ec4a89783ca31a0d'} | {'$oid': '55c4e4ddec4a897835a31a08'}
+blocks[].edit_info.update_version.$oid,String,19378403,15120.59,55c4eba3ec4a89783ca31a0c | 55c4eba3ec4a89783ca31a0d | 55c4e4ddec4a897835a31a08 | 55c4f2f1ec4a8977f7a31a0c | 55c4e4ddec4a897835a31a0b
+blocks[].fields,Object,19378403,15120.59,"{} | {'tabs': [{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info'}, {'type': 'textbooks', 'name': 'Textbooks'}, {' | {'end': {'$date': '2015-09-30T08:00:00.000-0500'}, 'tabs': [{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info | {'display_name': 'overview'} | {'display_name': 'overview', 'children': []}"
+blocks[].fields.accept_file_upload,Boolean,2097,1.64,False
+blocks[].fields.accept_grades_past_due,Boolean,415,0.32,False
+blocks[].fields.advanced_modules,Array,47206,36.83,"['pull', 'survey'] | ['combinedopenended', 'annotatable', 'videoalpha', 'peergrading'] | ['survay', 'poll'] | ['survey', 'poll'] | ['survey', 'poll', 'google-document']"
+blocks[].fields.advanced_modules[],Array,47206,36.83,
+blocks[].fields.advertised_start,Null,30321,23.66,None | 11-01-2016 | Proximanente | Proximamente
+blocks[].fields.allow_anonymous,Boolean,3389,2.64,False
+blocks[].fields.allow_latex,Boolean,116371,90.8,True | False
+blocks[].fields.alt_text,String,84019,65.56,
+blocks[].fields.answers,Array,2695,2.1,"[['Y', 'Yes'], ['N', 'No'], ['M', 'Maybe']] | [['1474043297218', '<apellidos>']] | [['R', {'img_alt': '', 'img': '', 'label': 'Red'}], ['B', {'img_alt': '', 'img': '', 'label': 'Blue'}], ['G', {'img_alt': '', 'img': '', 'label': 'Gre | [['Y', 'Yes'], ['N', 'No'], ['M', 'Maybe'], ['1475168369092', 'Nose']] | [['R', {'img': '', 'img_alt': '', 'label': 'Red'}], ['B', {'img': '', 'img_alt': '', 'label': 'Blue'}], ['G', {'img': '', 'img_alt': '', 'label': 'Gre"
+blocks[].fields.answers[],Array,2695,2.1,
+blocks[].fields.answers[][],Array,11619,9.07,
+blocks[].fields.answers[][].img,String,7726,6.03,
+blocks[].fields.answers[][].img_alt,String,7726,6.03,
+blocks[].fields.answers[][].label,String,7726,6.03,cual es tu animal favorito? | Blue | Green | Other | Red
+blocks[].fields.ask_to_send_email,Boolean,950,0.74,True | False
+blocks[].fields.ask_to_send_username,Boolean,950,0.74,True | False
+blocks[].fields.button_text,String,426,0.33, | enlazar | hola
+blocks[].fields.catalog_visibility,String,105737,82.5, | none | about | null | both
+blocks[].fields.cert_html_view_enabled,Boolean,9457,7.38,True | False
+blocks[].fields.cert_html_view_overrides,Object,2264,1.77,"{'default': {'platform_name': 'OpenCampus', 'logo_url': 'opencampus.utpl.edu.ec', 'company_verified_certificate_url': 'www.utpl.edu.ec', 'company_priv | {} | {'default': {'accomplishment_class_append': 'accomplishment-certificate', 'company_tos_url': 'http://www.YourOrganization.com/our-terms-service', 'com | {'default': {'platform_name': 'YourPlatformName', 'logo_url': 'www.YourOrganization.com', 'company_verified_certificate_url': 'http://www.YourOrganiza | {'default': {'accomplishment_class_append': 'accomplishment-certificate', 'company_tos_url': 'http://opencampus.utpl.edu.ec/tos', 'company_verified_ce"
+blocks[].fields.cert_html_view_overrides.base,Object,222,0.17,"{'certificate_type': 'base', 'certificate_title': 'Certificado de Aprobación', 'document_body_class_append': 'is-base'} | {'certificate_type': 'base', 'certificate_title': 'Certificate of Achievement', 'document_body_class_append': 'is-base'}"
+blocks[].fields.cert_html_view_overrides.base.certificate_title,String,222,0.17,Certificado de Aprobación | Certificate of Achievement
+blocks[].fields.cert_html_view_overrides.base.certificate_type,String,222,0.17,base
+blocks[].fields.cert_html_view_overrides.base.document_body_class_append,String,222,0.17,is-base
+blocks[].fields.cert_html_view_overrides.default,Object,222,0.17,"{'platform_name': 'OpenCampus', 'logo_url': 'opencampus.utpl.edu.ec', 'company_verified_certificate_url': 'www.utpl.edu.ec', 'company_privacy_url': 'o | {'accomplishment_class_append': 'accomplishment-certificate', 'company_tos_url': 'http://opencampus.utpl.edu.ec/tos', 'company_verified_certificate_ur | {'platform_name': 'YourPlatformName', 'logo_url': 'www.YourOrganization.com', 'company_verified_certificate_url': 'http://www.YourOrganization.com/abo | {'accomplishment_class_append': 'accomplishment-certificate', 'company_tos_url': 'http://www.YourOrganization.com/our-terms-service', 'company_verifie"
+blocks[].fields.cert_html_view_overrides.default.accomplishment_class_append,String,222,0.17,accomplishment-certificate
+blocks[].fields.cert_html_view_overrides.default.company_about_url,String,222,0.17,opencampus.utpl.edu.ec | http://www.YourOrganization.com/about-us
+blocks[].fields.cert_html_view_overrides.default.company_privacy_url,String,222,0.17,opencampus.utpl.edu.ec | http://www.YourOrganization.com/our-privacy-policy
+blocks[].fields.cert_html_view_overrides.default.company_tos_url,String,222,0.17,http://opencampus.utpl.edu.ec/tos | http://www.YourOrganization.com/our-terms-service
+blocks[].fields.cert_html_view_overrides.default.company_verified_certificate_url,String,222,0.17,http://www.YourOrganization.com/about_verified_certificates | www.utpl.edu.ec
+blocks[].fields.cert_html_view_overrides.default.logo_src,String,222,0.17,/static/certificates/images/our_logo.svg | /static/certificates/images/utpl_logo.jpg | /static/certificates/images/openCampus_logo.png
+blocks[].fields.cert_html_view_overrides.default.logo_url,String,222,0.17,opencampus.utpl.edu.ec | www.YourOrganization.com
+blocks[].fields.cert_html_view_overrides.default.platform_name,String,222,0.17,OpenCampus | YourPlatformName
+blocks[].fields.cert_html_view_overrides.distinguished,Object,222,0.17,"{'certificate_type': 'distinguished', 'certificate_title': 'Distinguished Certificate of Achievement', 'document_body_class_append': 'is-distinguished"
+blocks[].fields.cert_html_view_overrides.distinguished.certificate_title,String,222,0.17,Distinguished Certificate of Achievement
+blocks[].fields.cert_html_view_overrides.distinguished.certificate_type,String,222,0.17,distinguished
+blocks[].fields.cert_html_view_overrides.distinguished.document_body_class_append,String,222,0.17,is-distinguished
+blocks[].fields.cert_html_view_overrides.honor,Object,222,0.17,"{'certificate_type': 'honor', 'certificate_title': 'Certificado de Honor', 'document_body_class_append': 'is-honorcode'} | {'certificate_type': 'honor', 'certificate_title': 'Honor Certificate', 'document_body_class_append': 'is-honorcode'}"
+blocks[].fields.cert_html_view_overrides.honor.certificate_title,String,222,0.17,Certificado de Honor | Honor Certificate
+blocks[].fields.cert_html_view_overrides.honor.certificate_type,String,222,0.17,honor
+blocks[].fields.cert_html_view_overrides.honor.document_body_class_append,String,222,0.17,is-honorcode
+blocks[].fields.cert_html_view_overrides.verified,Object,222,0.17,"{'platform_name': 'OpenCampus', 'logo_url': 'opencampus.utpl.edu.ec', 'company_verified_certificate_url': 'www.utpl.edu.ec', 'company_privacy_url': 'o | {'platform_name': 'OpenCampus', 'certificate_title': 'Certificado de Verificación', 'company_verified_certificate_url': 'www.utpl.edu.ec', 'company_pr | {'certificate_type': 'verified', 'certificate_title': 'Verified Certificate', 'document_body_class_append': 'is-idverified'} | {'certificate_type': 'verified', 'company_tos_url': 'http://opencampus.utpl.edu.ec/tos', 'company_verified_certificate_url': 'www.utpl.edu.ec', 'compa | {'certificate_type': 'verified', 'certificate_title': 'Certificado de Verificación', 'document_body_class_append': 'is-idverified'}"
+blocks[].fields.cert_html_view_overrides.verified.accomplishment_class_append,String,174,0.14,accomplishment-certificate
+blocks[].fields.cert_html_view_overrides.verified.certificate_title,String,222,0.17,Certificado de Verificación | Verified Certificate
+blocks[].fields.cert_html_view_overrides.verified.certificate_type,String,222,0.17,verified
+blocks[].fields.cert_html_view_overrides.verified.company_about_url,String,174,0.14,opencampus.utpl.edu.ec
+blocks[].fields.cert_html_view_overrides.verified.company_privacy_url,String,174,0.14,opencampus.utpl.edu.ec
+blocks[].fields.cert_html_view_overrides.verified.company_tos_url,String,174,0.14,http://opencampus.utpl.edu.ec/tos
+blocks[].fields.cert_html_view_overrides.verified.company_verified_certificate_url,String,174,0.14,www.utpl.edu.ec
+blocks[].fields.cert_html_view_overrides.verified.document_body_class_append,String,222,0.17,is-idverified
+blocks[].fields.cert_html_view_overrides.verified.logo_src,String,174,0.14,/static/certificates/images/utpl_logo.jpg
+blocks[].fields.cert_html_view_overrides.verified.logo_url,String,174,0.14,opencampus.utpl.edu.ec
+blocks[].fields.cert_html_view_overrides.verified.platform_name,String,174,0.14,OpenCampus
+blocks[].fields.cert_name_long,String,2504,1.95, | Introducción a JavaScript |   | Python Certificate nombre largo
+blocks[].fields.cert_name_short,String,12619,9.85, | Python Certificate |   | cursoApoyo | Intro a JS
+blocks[].fields.certificates,Object,2494,1.95,"{'certificates': [{'course_title': 'Python', 'name': 'Name of the certificate', 'is_active': False, 'signatories': [{'name': 'Janneth Chicaiza', 'cert | {'certificates': [{'course_title': 'Curso Demo', 'name': 'Name of the certificate', 'is_active': True, 'signatories': [{'name': 'Krmita', 'certificate | {'certificates': [{'course_title': 'Python', 'name': 'Name of the certificate', 'is_active': True, 'signatories': [{'name': 'Janneth Chicaiza', 'certi | {'certificates': [{'course_title': 'Manejo del recurso suelo', 'name': 'Name of the certificate', 'is_active': False, 'signatories': [{'name': 'Letici | {'certificates': [{'course_title': 'Curso Demo', 'name': 'Name of the certificate', 'is_active': False, 'signatories': [{'name': 'Krmita', 'certificat"
+blocks[].fields.certificates.certificates,Array,2494,1.95,"[{'course_title': 'Curso Demo', 'name': 'Name of the certificate', 'is_active': True, 'signatories': [{'name': 'Krmita', 'certificate': None, 'title': | [{'course_title': 'Python', 'name': 'Name of the certificate', 'is_active': True, 'signatories': [{'name': 'Janneth Chicaiza', 'certificate': None, 't | [{'course_title': 'Curso Demo', 'name': 'Name of the certificate', 'is_active': False, 'signatories': [{'name': 'Krmita', 'certificate': None, 'title' | [{'course_title': 'Python', 'name': 'Name of the certificate', 'is_active': False, 'signatories': [{'name': 'Janneth Chicaiza', 'certificate': None, ' | [{'course_title': 'Manejo del recurso suelo', 'name': 'Name of the certificate', 'is_active': False, 'signatories': [{'name': 'Leticia Jiménez ', 'cer"
+blocks[].fields.certificates.certificates[],Array,2494,1.95,
+blocks[].fields.certificates.certificates[].course_title,String,2488,1.94,Manejo del recurso suelo | Python | Python Básico | Educación para una alimentación saludable | Curso Demo
+blocks[].fields.certificates.certificates[].description,String,2488,1.94,Description of the certificate
+blocks[].fields.certificates.certificates[].editing,Boolean,2488,1.94,False
+blocks[].fields.certificates.certificates[].id,Integer,2488,1.94,1361911651 | 153474192 | 968426042 | 745638909 | 1856061470
+blocks[].fields.certificates.certificates[].is_active,Boolean,2488,1.94,True | False
+blocks[].fields.certificates.certificates[].name,String,2488,1.94,Name of the certificate
+blocks[].fields.certificates.certificates[].signatories,Array,2488,1.94,"[{'name': 'René Rolando', 'certificate': None, 'title': 'Mgtr.', 'organization': 'Universidad Técnica Particular de Loja', 'signature_image_path': '', | [{'name': 'René Rolando Elizalde', 'certificate': None, 'title': 'Magister ', 'organization': 'UTPL-TAW', 'signature_image_path': '', 'id': 1487619474 | [{'name': 'Krmita', 'certificate': None, 'title': 'Ing', 'organization': 'UTPL', 'signature_image_path': '', 'id': 1301284243}] | [{'name': 'Leticia Jiménez ', 'certificate': None, 'title': 'Doctora en Ciencias Biológicas', 'organization': 'Universidad Técnica Particular de Loja' | [{'name': 'Janneth Chicaiza', 'certificate': None, 'title': 'Ph.d.', 'organization': 'Universidad Técnica Particular de Loja', 'signature_image_path':"
+blocks[].fields.certificates.certificates[].signatories[],Array,2488,1.94,
+blocks[].fields.certificates.certificates[].signatories[].certificate,Null,2488,1.94,None
+blocks[].fields.certificates.certificates[].signatories[].id,Integer,2488,1.94,456864036 | 2061899149 | 1487619474 | 396648168 | 1301284243
+blocks[].fields.certificates.certificates[].signatories[].name,String,2488,1.94,René Rolando Elizalde | Krmita | Janneth Chicaiza | René Rolando | Leticia Jiménez 
+blocks[].fields.certificates.certificates[].signatories[].organization,String,2488,1.94,UTPL | UTPL-TAW | Universidad Técnica Particular de Loja
+blocks[].fields.certificates.certificates[].signatories[].signature_image_path,String,2488,1.94,
+blocks[].fields.certificates.certificates[].signatories[].title,String,2488,1.94,Ing | Ph.d. | Mgtr. | Doctora en Ciencias Biológicas | Magister 
+blocks[].fields.certificates.certificates[].version,Integer,2488,1.94,1
+blocks[].fields.certificates_display_behavior,String,1649,1.29,end | early_with_info
+blocks[].fields.checklists,Array,28826,22.49,"[{'short_description': 'Getting Started With Studio', 'items': [{'action_external': False, 'is_checked': False, 'action_url': '/manage_users/i4x://edX | [{'short_description': 'Getting Started With Studio', 'items': [{'action_external': False, 'short_description': 'Add Course Team Members', 'action_url | [{'short_description': 'Getting Started With Studio', 'items': [{'action_external': False, 'is_checked': True, 'action_url': 'ManageUsers', 'action_te | [{'short_description': 'Getting Started With Studio', 'items': [{'action_external': False, 'is_checked': False, 'action_url': 'ManageUsers', 'action_t"
+blocks[].fields.checklists[],Array,28826,22.49,
+blocks[].fields.checklists[].action_urls_expanded,Boolean,2796,2.18,True
+blocks[].fields.checklists[].id,Integer,699,0.55,0
+blocks[].fields.checklists[].items,Array,115304,89.97,"[{'action_external': False, 'short_description': 'Create Your First Section and Subsection', 'action_url': 'CourseOutline', 'action_text': 'Edit Cours | [{'action_external': True, 'short_description': 'Explore the Studio Help Forum', 'action_url': 'http://help.edge.edx.org/', 'action_text': 'Visit Stud | [{'action_external': False, 'short_description': 'Add Course Team Members', 'action_url': 'ManageUsers', 'action_text': 'Edit Course Team', 'is_checke | [{'action_external': False, 'short_description': 'Draft a Course Description', 'action_url': 'SettingsDetails', 'action_text': 'Edit Course Schedule & | [{'action_external': False, 'is_checked': True, 'action_url': 'ManageUsers', 'action_text': 'Edit Course Team', 'short_description': 'Add Course Team "
+blocks[].fields.checklists[].items[],Array,115304,89.97,
+blocks[].fields.checklists[].items[].action_external,Boolean,518868,404.86,True | False
+blocks[].fields.checklists[].items[].action_text,String,518868,404.86, | Edit Course Outline | Edit Grading Settings | Edit Course Team | Edit Course Details &amp; Schedule
+blocks[].fields.checklists[].items[].action_url,String,518868,404.86, | ManageUsers | SettingsDetails | SettingsGrading | CourseOutline
+blocks[].fields.checklists[].items[].is_checked,Boolean,518868,404.86,True | False
+blocks[].fields.checklists[].items[].long_description,String,518868,404.86,"Set up your assignment types and grading policy even if you haven't created all your assignments. | Discover other available course authoring tools, and find help when you need it. | Establish your course's student enrollment and launch dates on the Schedule and Details page. | Grant your collaborators permission to edit your course so you can work together. | Use your course outline to build your first Section and Subsection."
+blocks[].fields.checklists[].items[].short_description,String,518868,404.86,Create Your First Section and Subsection | Draft Your Course's Grading Policy | Set Important Dates for Your Course | Add Course Team Members | Explore the Other Studio Checklists
+blocks[].fields.checklists[].short_description,String,115304,89.97,Explore edX's Support Tools | Getting Started With Studio | Draft a Rough Course Outline | Draft Your Course About Page
+blocks[].fields.children,Array,13463091,10504.99,"[['chapter', 'a19892efc35d439bb16e8688725719d8']] | [] | [['chapter', 'bde175ec355d40df8baea6cebda3b0e4']] | [['chapter', '23dd0a132dde4184aebd43b210b41be9']] | [['chapter', 'a19892efc35d439bb16e8688725719d8'], ['chapter', '7d3e3d71d7a0418bbd404005c59ca165']]"
+blocks[].fields.children[],Array,13463091,10504.99,
+blocks[].fields.children[][],Array,18187534,14191.38,
+blocks[].fields.cosmetic_display_price,Integer,7126,5.56,0 | 50 | 87
+blocks[].fields.course_image,String,115436,90.07,Lighthouse.jpg | plata-equipo-base-de-datos-de-icono--psd_30-2460.jpg | git-logo.png | javascript-logo-png.png | medio ambiente.jpg
+blocks[].fields.custom_parameters,Array,199,0.16,"['""cursoEva:6763807d-7d9b-4d91-aa74-79d4173723ff:QPfrT1zusmX523fy5tVCpmho63J3egNy5S5E9li7""'] | ['cursoEva=6763807d-7d9b-4d91-aa74-79d4173723ff:QPfrT1zusmX523fy5tVCpmho63J3egNy5S5E9li7'] | ['""acceScorm:93ef32e4-ba32-4603-93e2-b232e0b6e85c:E53j24DXHuejIypu43tdNLZz0CTA6ESuDZ7j8CrN""'] | ['""93ef32e4-ba32-4603-93e2-b232e0b6e85c:E53j24DXHuejIypu43tdNLZz0CTA6ESuDZ7j8CrN""'] | ['""cursoEva=6763807d-7d9b-4d91-aa74-79d4173723ff:QPfrT1zusmX523fy5tVCpmho63J3egNy5S5E9li7""']"
+blocks[].fields.custom_parameters[],Array,199,0.16,
+blocks[].fields.days_early_for_beta,Null,2112,1.65,None | 0 | 10
+blocks[].fields.default_tab,Null,2424,1.89,None |  | Contenidos | Course
+blocks[].fields.description,String,1816,1.42,DEMO | NO SE SOLICITA NADA | demodemo | Es una prueba | ScormEVA
+blocks[].fields.disable_progress_graph,Boolean,2909,2.27,True | False
+blocks[].fields.discussion_blackouts,Array,167,0.13,"['2016-10-20', '2016-10-22'] | [['2016-10-20', '2016-10-22']]"
+blocks[].fields.discussion_blackouts[],Array,167,0.13,
+blocks[].fields.discussion_blackouts[][],Array,165,0.13,
+blocks[].fields.discussion_category,String,99884,77.94,Introdución a JavaScript | Módulo 4 | Módulo 0: Introducción. | Actividades. | Módulo 2
+blocks[].fields.discussion_id,String,22161,17.29,edx_demo_embedded_discussion | c49f0dfb8fc94c9c8d9999cc95190c56 | 98d8feb5971041a085512ae22b398613 | b770140a122741fea651a50362dee7e6 | e252d4de97c7426e8b67ff516a9962f6
+blocks[].fields.discussion_sort_alpha,Boolean,4020,3.14,True
+blocks[].fields.discussion_target,String,101459,79.17,Powtoon | Ejercicio: Elaboración de una rúbrica | Link de actividad Mindmeister. | Presentación | Que puedo hacer con JavaScript
+blocks[].fields.discussion_topics,Object,128155,100.0,"{'General': {'id': 'i4x-edX-Open_DemoX-course-edx_demo_course'}} | {'General': {'id': 'course'}} | {'Fuera de foco': {'id': 'course_fuera'}, 'Trucos chéveres con R o RStudio': {'id': 'course_trucos'}, 'Preguntas sobre el curso': {'id': 'course_preg' | {'Fuera de foco': {'id': 'course_fuera'}, 'Preguntas sobre el curso': {'id': 'course_preg'}, 'General': {'id': 'course'}} | {'Preguntas sobre el curso': {'id': 'course_preg'}, 'General': {'id': 'course'}}"
+blocks[].fields.discussion_topics.Calificación,Object,1395,1.09,{'id': 'course_calif'}
+blocks[].fields.discussion_topics.Calificación.id,String,1395,1.09,course_calif
+blocks[].fields.discussion_topics.Dudas,Object,1529,1.19,{'id': 'gp-dudas'}
+blocks[].fields.discussion_topics.Dudas Reto-1,Object,2,0.0,{'id': 'gp-dudas'}
+blocks[].fields.discussion_topics.Dudas Reto-1.id,String,2,0.0,gp-dudas
+blocks[].fields.discussion_topics.Dudas.id,String,1529,1.19,gp-dudas
+blocks[].fields.discussion_topics.ForoRetos,Object,170,0.13,{'id': 'course'}
+blocks[].fields.discussion_topics.ForoRetos.id,String,170,0.13,course
+blocks[].fields.discussion_topics.Fuera de foco,Object,1442,1.13,{'id': 'course_fuera'}
+blocks[].fields.discussion_topics.Fuera de foco.id,String,1442,1.13,course_fuera
+blocks[].fields.discussion_topics.General,Object,127985,99.86,{'id': 'course-v1:UTPL+TC2016+2016_P1'} | {'id': 'i4x-edX-Open_DemoX-course-edx_demo_course'} | {'id': 'course'} | {'id': 'i4x-ModalidaAbiertaDistancia-Test01-course-2015_test'}
+blocks[].fields.discussion_topics.General.id,String,127985,99.86,course | i4x-ModalidaAbiertaDistancia-Test01-course-2015_test | course-v1:UTPL+TC2016+2016_P1 | i4x-edX-Open_DemoX-course-edx_demo_course
+blocks[].fields.discussion_topics.Preguntas frecuentes,Object,1527,1.19,{'id': 'preguntas'}
+blocks[].fields.discussion_topics.Preguntas frecuentes.id,String,1527,1.19,preguntas
+blocks[].fields.discussion_topics.Preguntas sobre el curso,Object,1467,1.14,{'id': 'course_preg'}
+blocks[].fields.discussion_topics.Preguntas sobre el curso.id,String,1467,1.14,course_preg
+blocks[].fields.discussion_topics.Trucos chéveres con R o RStudio,Object,1401,1.09,{'id': 'course_trucos'}
+blocks[].fields.discussion_topics.Trucos chéveres con R o RStudio.id,String,1401,1.09,course_trucos
+blocks[].fields.display_name,String,16278427,12701.74,Cuidado al medio ambiente | Sección | Auditoría Informática | Introducción a JavaScrit | overview
+blocks[].fields.display_organization,String,281,0.22,Loja Valle de Tecnología | Loxa Valle de Tecnología
+blocks[].fields.download_track,Boolean,3780,2.95,True | False
+blocks[].fields.download_video,Boolean,1123359,876.54,True | False
+blocks[].fields.due,Date,250643,195.57,{'$date': '2015-09-30T09:00:00.000-0500'} | {'$date': '2015-09-09T07:30:00.000-0500'} | {'$date': '2015-08-25T19:00:00.000-0500'} | {'$date': '2015-09-30T07:30:00.000-0500'} | {'$date': '2015-08-25T18:30:00.000-0500'}
+blocks[].fields.due.$date,String,249944,195.03,2015-08-25T19:00:00.000-0500 | 2015-09-30T09:00:00.000-0500 | 2015-09-30T07:30:00.000-0500 | 2015-08-25T18:30:00.000-0500 | 2015-09-09T07:30:00.000-0500
+blocks[].fields.editor,String,95092,74.2,visual | raw
+blocks[].fields.embed_code,String,84019,65.56,"<iframe src=""https://docs.google.com/forms/d/e/1FAIpQLSdzUiUJkyA390SQ09clkkc0fNrxLQM5h3lOQgCoKdSI06gBcw/viewform?embedded=true"" width=""760"" height=""10 | <iframe src=""https://docs.google.com/forms/d/e/1FAIpQLSe-TNRx-KWkX_8YpOe8wFAN47jbBsHpsjl4IDmwxJB19-a12A/viewform?embedded=true"" width=""760"" height=""50 | <iframe src=""https://docs.google.com/forms/d/e/1FAIpQLSdzUiUJkyA390SQ09clkkc0fNrxLQM5h3lOQgCoKdSI06gBcw/viewform?embedded=true"" width=""760"" height=""12 |     <iframe src=""https://docs.google.com/forms/d/e/1FAIpQLSe-TNRx-KWkX_8YpOe8wFAN47jbBsHpsjl4IDmwxJB19-a12A/viewform?embedded=true"" width=""760"" height | <iframe src=""https://docs.google.com/forms/d/e/1FAIpQLSdzUiUJkyA390SQ09clkkc0fNrxLQM5h3lOQgCoKdSI06gBcw/viewform?embedded=true"" width=""760"" height=""50"
+blocks[].fields.enable_proctored_exams,Boolean,7381,5.76,True
+blocks[].fields.end,Date,98140,76.58,{'$date': '2015-09-16T11:00:00.000-0500'} | {'$date': '2015-08-16T11:00:00.000-0500'} | {'$date': '2015-09-30T08:00:00.000-0500'} | {'$date': '2015-09-15T06:59:00.000-0500'} | {'$date': '2015-08-31T07:00:00.000-0500'}
+blocks[].fields.end.$date,String,87056,67.93,2015-09-15T06:59:00.000-0500 | 2015-09-16T11:00:00.000-0500 | 2015-08-31T07:00:00.000-0500 | 2015-09-30T08:00:00.000-0500 | 2015-08-16T11:00:00.000-0500
+blocks[].fields.enrollment_end,Date,106844,83.37,{'$date': '2015-08-16T11:00:00.000-0500'} | {'$date': '2015-08-30T19:00:00.000-0500'} | {'$date': '2015-08-21T19:00:00.000-0500'} | {'$date': '2015-09-08T18:30:00.000-0500'} | {'$date': '2015-08-27T14:00:00.000-0500'}
+blocks[].fields.enrollment_end.$date,String,103418,80.7,2015-08-30T19:00:00.000-0500 | 2015-08-21T19:00:00.000-0500 | 2015-08-16T11:00:00.000-0500 | 2015-09-08T18:30:00.000-0500 | 2015-08-27T14:00:00.000-0500
+blocks[].fields.enrollment_start,Date,117945,92.03,{'$date': '2015-01-08T03:00:00.000-0500'} | {'$date': '2015-08-26T04:00:00.000-0500'} | {'$date': '2015-08-07T08:00:00.000-0500'} | {'$date': '2015-08-23T20:00:00.000-0500'} | {'$date': '2015-08-01T03:00:00.000-0500'}
+blocks[].fields.enrollment_start.$date,String,116184,90.66,2015-01-08T03:00:00.000-0500 | 2015-08-07T08:00:00.000-0500 | 2015-08-23T20:00:00.000-0500 | 2015-08-26T04:00:00.000-0500 | 2015-08-01T03:00:00.000-0500
+blocks[].fields.format,String,445620,347.71,Examen Parcial | Talleres | Homework | Examen Final | Midterm Exam
+blocks[].fields.giturl,Null,1398,1.09,None
+blocks[].fields.graceperiod,String,103779,80.98, | 21600 seconds | 18000 seconds | 1 days 43200 seconds | 1 days
+blocks[].fields.graded,Boolean,447018,348.8,True | False
+blocks[].fields.group_access,Object,82578,64.43,"{'133470260': [1487062428]} | {'1896740887': []} | {} | {'1896740887': [1561003311]} | {'1859362627': [1503201766, 1312698750, 1929812764]}"
+blocks[].fields.group_access.133470260,Array,1,0.0,[1487062428]
+blocks[].fields.group_access.133470260[],Array,1,0.0,
+blocks[].fields.group_access.1593623679,Array,1,0.0,[334092591]
+blocks[].fields.group_access.1593623679[],Array,1,0.0,
+blocks[].fields.group_access.1701350647,Array,101,0.08,[2025430358]
+blocks[].fields.group_access.1701350647[],Array,101,0.08,
+blocks[].fields.group_access.1859362627,Array,1,0.0,"[1503201766, 1312698750, 1929812764]"
+blocks[].fields.group_access.1859362627[],Array,1,0.0,
+blocks[].fields.group_access.1896740887,Array,231,0.18,[] | [1561003311]
+blocks[].fields.group_access.1896740887[],Array,231,0.18,
+blocks[].fields.group_access.1991705085,Array,42363,33.06,[242428553] | [150651452] | [1869251702] | [97849496] | [660996453]
+blocks[].fields.group_access.1991705085[],Array,42363,33.06,
+blocks[].fields.handout,String,2,0.0,/asset-v1:UTPL+LP+2017+type@asset+block@problemasYSoluciones.pdf | /asset-v1:UTPL+LP+2017+type@asset+block@problema.str
+blocks[].fields.has_score,Boolean,1903,1.48,True | False
+blocks[].fields.hide_from_toc,Boolean,699,0.55,False
+blocks[].fields.hide_launch,Boolean,629,0.49,True | False
+blocks[].fields.html5_sources,Array,1119152,873.25,[] | ['5snjMcYO_Y4'] | ['https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-H010000_100.mp4'] | ['ilMpnPfxSeA'] | ['https://www.youtube.com/watch?v=dw_Ztx74xxc']
+blocks[].fields.html5_sources[],Array,1119152,873.25,
+blocks[].fields.html_textbooks,Array,699,0.55,"[{'tab_title': 'H24H', 'chapters': [{'url': '/static/book/h24h/BEFORE-INTRO-HOMER-h24h-intro-book.html', 'title': 'Introduction to the Book'}, {'url':"
+blocks[].fields.html_textbooks[],Array,699,0.55,
+blocks[].fields.html_textbooks[].chapters,Array,1398,1.09,"[{'url': '/static/book/h24h/BEFORE-INTRO-HOMER-h24h-intro-book.html', 'title': 'Introduction to the Book'}, {'url': '/static/book/h24h/BEFORE-HOUR-1-h | [{'url': '/static/book/sourcebook/table-of-contents.html', 'title': 'Title Page'}, {'url': '/static/book/sourcebook/homeric-iliad-1.html', 'title': 'H"
+blocks[].fields.html_textbooks[].chapters[],Array,1398,1.09,
+blocks[].fields.html_textbooks[].chapters[].title,String,76191,59.45,Introduction to Homeric Poetry | Introduction to the Book | Hour 2 | Hour 1 | Hour 3
+blocks[].fields.html_textbooks[].chapters[].url,String,76191,59.45,/static/book/h24h/h24h-hour2.html | /static/book/h24h/BEFORE-HOUR-1-h24h-intro-homer.html | /static/book/h24h/h24h-hour1.html | /static/book/h24h/h24h-hour3.html | /static/book/h24h/BEFORE-INTRO-HOMER-h24h-intro-book.html
+blocks[].fields.html_textbooks[].tab_title,String,1398,1.09,Sourcebook | H24H
+blocks[].fields.info_sidebar_name,String,3773,2.94,Folletos del Curso | Course Hangouts | Información | Novedades
+blocks[].fields.invitation_only,Boolean,613,0.48,True
+blocks[].fields.is_new,Boolean,41690,32.53,True | False
+blocks[].fields.ispublic,Boolean,10398,8.11,True | False
+blocks[].fields.issue_badges,Boolean,4,0.0,True | False
+blocks[].fields.language,String,118369,92.36,en | es
+blocks[].fields.launch_url,String,2204,1.72,http://cloud.scorm.com/EngineWebServices/ | https://repl.it/ | https://cloud.scorm.com/sc/blti |  https://cloud.scorm.com/sc/blti | https://repl.it/data/lti/assignments/7433
+blocks[].fields.lti_id,String,2206,1.72,YRUZP5EJMsPuoaxI5ghGLoSb5tdvw8fy8Z2JIjK7 | demo_01 | 70d50867-6b09-4101-9b66-361c1d13f329 | Acceso al EVA | AccesoalEVA30b66d42-ac6e-4519-8d35-b51b5ef10a37
+blocks[].fields.lti_passports,Array,435,0.34,"['demo_01:85079:756d3a066ef1f0a6f8b3c38477d16639', 'accesoEva:70d50867-6b09-4101-9b66-361c1d13f329:YRUZP5EJMsPuoaxI5ghGLoSb5tdvw8fy8Z2JIjK7'] | ['accesoEva:70d50867-6b09-4101-9b66-361c1d13f329:YRUZP5EJMsPuoaxI5ghGLoSb5tdvw8fy8Z2JIjK7'] | ['a'] | ['demo_01:85079:756d3a066ef1f0a6f8b3c38477d16639'] | ['a:a']"
+blocks[].fields.lti_passports[],Array,435,0.34,
+blocks[].fields.markdown,String,1001355,781.34,"Dropdown problems allow learners to select only one option from a list of options.
+
+When you add the problem, be sure to select Settings to specify a  | >>¿Cuantas formas de incrustar JavaScript existen?<<
+( ) 1
+( ) 4
+(x) 3
+( ) 2
+ | Multiple choice problems allow learners to select only one option. Learners can see all the options along with the problem text.
+
+When you add the pro | >>¿Cuantas formas de incrustar JavaScript existen?<<
+( ) 1
+( ) 4
+(x) 3
+( ) 2
+
+>>JavaScript se ejecuta en el lado del:<<
+
+[[Servidor, (Usuario), Servid | >>¿Cuantas formas de incrustar JavaScript existen?<<
+( ) 1
+( ) 4
+(x) 3
+( ) 2
+
+JavaScript se ejecuta en el lado del:
+
+[[Servidor, (Usuario), Servidor y"
+blocks[].fields.max_attempts,Integer,342880,267.54,None | 1000 | 10000 | 1 | 100
+blocks[].fields.max_student_enrollments_allowed,Null,4020,3.14,None | 25
+blocks[].fields.minimum_grade_credit,Float,90121,70.32,0.8
+blocks[].fields.mobile_available,Boolean,2827,2.21,True
+blocks[].fields.no_grade,Boolean,113,0.09,True | False
+blocks[].fields.num_inputs,Integer,614,0.48,9 | 15 | 20
+blocks[].fields.only_on_web,Boolean,1103,0.86,True
+blocks[].fields.open_in_a_new_page,Boolean,715,0.56,True | False
+blocks[].fields.pdf_textbooks,Array,14982,11.69,"[{'tab_title': 'Introducción a la Auditoría', 'id': '7Introducción_a_la_Auditoría', 'chapters': [{'url': '/static/Utpl_Lapo_Guamán_Mercy_Paulina_003x1 | [] | [{'tab_title': 'Derecho ambiental', 'id': '2Derecho_ambientasl', 'chapters': [{'url': 'http://www.estade.org/documentos/desarrollosustentable/Derecho% | [{'tab_title': 'Derecho ambientasl', 'id': '2Derecho_ambientasl', 'chapters': [{'url': 'http://www.estade.org/documentos/desarrollosustentable/Derecho | [{'tab_title': 'Variables JavaScript', 'id': '2Variables_JavaScript', 'chapters': [{'url': '/static/javascript.pdf', 'title': 'Introducción'}]}]"
+blocks[].fields.pdf_textbooks[],Array,14982,11.69,
+blocks[].fields.pdf_textbooks[].chapters,Array,12858,10.03,"[{'url': 'http://www.estade.org/documentos/desarrollosustentable/Derecho%20Ambiental%201.pdf', 'title': 'Derecho Ambiental_1'}, {'url': 'http://www.es | [{'url': '/static/javascript.pdf', 'title': 'Introducción'}] | [{'url': '/static/Python_para_todos.pdf', 'title': 'Introducción '}] | [{'url': '/static/Utpl_Lapo_Guamán_Mercy_Paulina_003x153.pdf', 'title': 'Capítulo 1'}] | [{'url': '/static/Concepto_de_Plan_Docente_e_indicadores.pdf', 'title': 'Concepto de Plan Docente e indicadores'}, {'url': '/static/Dialnet-Planificac"
+blocks[].fields.pdf_textbooks[].chapters[],Array,12858,10.03,
+blocks[].fields.pdf_textbooks[].chapters[].title,String,21452,16.74,Derecho Ambiental_4 | Derecho Ambiental_1 | Derecho Ambiental_3 | Introducción | Derecho Ambiental_2
+blocks[].fields.pdf_textbooks[].chapters[].url,String,21452,16.74,http://www.estade.org/documentos/desarrollosustentable/Derecho%20Ambiental%201.pdf | /static/javascript.pdf | http://www.estade.org/documentos/desarrollosustentable/Derecho%20Ambiental%203.pdf | http://www.estade.org/documentos/desarrollosustentable/Derecho%20Ambiental%202.pdf | http://www.estade.org/documentos/desarrollosustentable/Derecho%20Ambiental%204.pdf
+blocks[].fields.pdf_textbooks[].id,String,12858,10.03,3Estrategias_Innovadoras_para_el_Docente_Novel_Universitario | 7Introducción_a_la_Auditoría | 2Variables_JavaScript | 2Derecho_ambientasl | 0Python_para_todos
+blocks[].fields.pdf_textbooks[].tab_title,String,12858,10.03,Derecho ambiental | Variables JavaScript | Derecho ambientasl | Introducción a la Auditoría | Python para todos
+blocks[].fields.questions,Array,965,0.75,"[['enjoy', {'img_alt': '', 'img': '', 'label': 'Are you enjoying the course?'}], ['recommend', {'img_alt': '', 'img': '', 'label': 'Would you recommen | [['learn', {'img': '', 'img_alt': '', 'label': 'Ingrese sus apellidos'}]] | [['learn', {'img_alt': '', 'img': '', 'label': 'Ingrese sus apellidos'}]] | [['enjoy', {'img': '', 'img_alt': '', 'label': 'Are you enjoying the course?'}], ['recommend', {'img': '', 'img_alt': '', 'label': 'Would you recommen | [['enjoy', {'img_alt': 'utpl', 'img': 'http://www.utpl.edu.ec/sites/all/themes/utpl/images/logo.png', 'label': 'Are you enjoying the course?'}], ['rec"
+blocks[].fields.questions[],Array,965,0.75,
+blocks[].fields.questions[][],Array,4534,3.54,
+blocks[].fields.questions[][].img,String,4534,3.54, | http://www.utpl.edu.ec/sites/all/themes/utpl/images/logo.png
+blocks[].fields.questions[][].img_alt,String,4534,3.54, | utpl
+blocks[].fields.questions[][].label,String,4534,3.54,Ingrese sus apellidos | Would you recommend this course to your friends? | Do you think you will learn a lot? | Are you enjoying the course? | Cuál es su primer nombre?
+blocks[].fields.rerandomize,String,97010,75.7,never | per_student | always | onreset
+blocks[].fields.show_calculator,Boolean,1211,0.94,True | False
+blocks[].fields.show_captions,Boolean,3215,2.51,True | False
+blocks[].fields.show_chat,Boolean,21006,16.39,True | False
+blocks[].fields.show_reset_button,Boolean,11460,8.94,True | False
+blocks[].fields.showanswer,String,175014,136.56,answered | attempted | never | finished | always
+blocks[].fields.skip_spelling_checks,Boolean,2097,1.64,False
+blocks[].fields.source,String,699,0.55,
+blocks[].fields.source_code,String,109038,85.08,"\subsection{Esto es una prueba}
+
+You can write complex equations in LaTeX.
+
+\begin{equation}
+        x = \frac{a}{b}
+\end{equation}
+ | \documentclass{article}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage{mathtools}
+
+\title{Ejemplo  | \subsection{Esto es una prueba}
+
+You can write complex equations in LaTeX.
+
+\begin{equation}
+        x = \frac{-b\pm\sqrt{b^2-4*a*c}}{2a}
+\end{equatio | \subsection{Example of E-text in LaTeX}
+
+It is very convenient to write complex equations in LaTeX.        
+
+\begin{equation}
+        x = \frac{-b\pm\ | \subsection{Example of E-text in LaTeX}
+
+You can write complex equations in LaTeX.
+
+\begin{equation}
+        x = \frac{-b\pm\sqrt{b^2-4*a*c}}{2a}
+\end"
+blocks[].fields.source_file,Null,699,0.55,None
+blocks[].fields.start,Date,852589,665.26,{'$date': '2015-08-16T03:00:00.000-0500'} | {'$date': '2029-12-31T19:00:00.000-0500'} | {'$date': '2015-01-07T03:00:00.000-0500'} | {'$date': '2015-09-01T08:00:00.000-0500'} | {'$date': '2015-09-10T03:00:00.000-0500'}
+blocks[].fields.start.$date,String,852589,665.26,2029-12-31T19:00:00.000-0500 | 2015-08-16T03:00:00.000-0500 | 2015-09-10T03:00:00.000-0500 | 2015-01-07T03:00:00.000-0500 | 2015-09-01T08:00:00.000-0500
+blocks[].fields.sub,String,1113528,868.86, | name_of_file | gnqth8uWzO8 | 8VQZ0trArxo | 3_yD_cEKoCk
+blocks[].fields.submission_due,String,116371,90.8,2015-08-28T13:00:00+00:00 | 2015-10-21T23:59:00+00:00 | 2029-01-01T00:00:00+00:00 | 2015-09-04T00:00:00+00:00 | 2015-10-23T23:00:00+00:00
+blocks[].fields.submission_start,String,116371,90.8,2015-08-26T13:00:00+00:00 | 2015-10-20T16:00:00+00:00 | 2015-10-20T00:00:00+00:00 | 2001-01-01T00:00:00+00:00 | 2015-08-31T00:00:00+00:00
+blocks[].fields.submission_wait_seconds,Integer,68262,53.26,5 | 3 | 20 | 2 | 1
+blocks[].fields.tabs,Array,128155,100.0,"[{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info'}, {'type': 'textbooks', 'name': 'Textbooks'}, {'type': 'd | [{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info'}, {'type': 'static_tab', 'name': 'Glosario', 'url_slug':  | [{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info'}, {'type': 'pdf_textbooks', 'name': 'Textbooks'}, {'type' | [{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info'}, {'type': 'wiki', 'name': 'Wiki'}, {'type': 'discussion' | [{'type': 'courseware', 'name': 'Courseware'}, {'type': 'course_info', 'name': 'Course Info'}, {'type': 'wiki', 'name': 'Wiki'}, {'type': 'progress', "
+blocks[].fields.tabs[],Array,128155,100.0,
+blocks[].fields.tabs[].is_hidden,Boolean,11632,9.08,True
+blocks[].fields.tabs[].name,String,806436,629.25,Course Info | Discussion | Courseware | Textbooks | Wiki
+blocks[].fields.tabs[].type,String,806436,629.25,wiki | courseware | discussion | course_info | textbooks
+blocks[].fields.tabs[].url_slug,String,22464,17.53,db40733af1934d518feb73d6f3ec56a7 | 0c496964a7a145e089ea68cfc759926b | 11cb812be1224370a5c004dbdf6bd316 | 2ea8f10c6cae4a5db75f7384a62b6281 | 69e72f17ed9044638c9996bf5b1a9151
+blocks[].fields.track,String,2250,1.76, | Presentación del Curso | Presentacion del Curso - Antropologia
+blocks[].fields.transcripts,Object,2616,2.04,{} | {'es': 'Are Humans More Valuable Than Animals_.es.srt'} | {'es': 'creacion_evolucion.srt'} | {'es': '[DownSub.com] Are Humans More Valuable Than Animals_.srt'}
+blocks[].fields.transcripts.es,String,1831,1.43,creacion_evolucion.srt | [DownSub.com] Are Humans More Valuable Than Animals_.srt | Are Humans More Valuable Than Animals_.es.srt
+blocks[].fields.use_latex_compiler,Boolean,15425,12.04,True
+blocks[].fields.user_partitions,Array,8066,6.29,"[{'name': 'Content Group Configuration', 'version': 2, 'groups': [{'version': 1, 'id': 1561003311, 'name': 'PRueba'}], 'scheme': 'cohort', 'id': 18967 | [{'groups': [{'version': 1, 'id': 1561003311, 'name': 'PRueba'}], 'version': 3, 'name': 'Content Group Configuration', 'parameters': {}, 'active': Tru | [{'name': 'Content Group Configuration', 'parameters': {}, 'version': 3, 'groups': [{'version': 1, 'id': 1561003311, 'name': 'PRueba'}], 'active': Tru | [{'groups': [{'version': 1, 'id': 455984550, 'name': 'Taller'}], 'version': 3, 'name': 'Content Group Configuration', 'parameters': {}, 'active': True | [{'description': 'The groups in this configuration can be mapped to cohort groups in the LMS.', 'version': 2, 'groups': [{'version': 1, 'id': 15610033"
+blocks[].fields.user_partitions[],Array,8066,6.29,
+blocks[].fields.user_partitions[].active,Boolean,7879,6.15,True
+blocks[].fields.user_partitions[].description,String,8430,6.58,The groups in this configuration can be mapped to cohort groups in the LMS. | 
+blocks[].fields.user_partitions[].groups,Array,8430,6.58,"[] | [{'version': 1, 'id': 1503201766, 'name': 'Paralelo A'}] | [{'version': 1, 'id': 380396461, 'name': 'Grupo 1'}] | [{'version': 1, 'id': 455984550, 'name': 'Taller'}] | [{'version': 1, 'id': 1561003311, 'name': 'PRueba'}]"
+blocks[].fields.user_partitions[].groups[],Array,8430,6.58,
+blocks[].fields.user_partitions[].groups[].id,Integer,52161,40.7,455984550 | 1503201766 | 1929812764 | 1561003311 | 380396461
+blocks[].fields.user_partitions[].groups[].name,String,52161,40.7,PRueba | Paralelo A | Taller | Grupo 1 | Paralelo B
+blocks[].fields.user_partitions[].groups[].version,Integer,52161,40.7,1
+blocks[].fields.user_partitions[].id,Integer,8430,6.58,1896740887 | 1859362627 | 133470260 | 238087139 | 1115745375
+blocks[].fields.user_partitions[].name,String,8430,6.58,Content Group Configuration | docentes
+blocks[].fields.user_partitions[].parameters,Object,7879,6.15,{}
+blocks[].fields.user_partitions[].scheme,String,8430,6.58,random | cohort
+blocks[].fields.user_partitions[].version,Integer,8430,6.58,3 | 2
+blocks[].fields.version,Integer,2097,1.64,1
+blocks[].fields.visible_to_staff_only,Boolean,108806,84.9,True
+blocks[].fields.weight,Integer,327869,255.83,None | 0.5 | 2 | 3 | 1
+blocks[].fields.xml_attributes,Object,1044322,814.86,"{'filename': ['vertical/vertical_0270f6de40fc.xml', 'vertical/vertical_0270f6de40fc.xml']} | {'filename': ['discussion/501aed9d902349eeb2191fa505548de2.xml', 'discussion/501aed9d902349eeb2191fa505548de2.xml']} | {'filename': ['html/625da8989bdc4b7fa0acdb98618c98ac.xml', 'html/625da8989bdc4b7fa0acdb98618c98ac.xml']} | {'filename': ['vertical/72a7649a078b43a3bc539d62ef145f87.xml', 'vertical/72a7649a078b43a3bc539d62ef145f87.xml']} | {'filename': ['problem/651e0945b77f42e0a4c89b8c3e6f5b3b.xml', 'problem/651e0945b77f42e0a4c89b8c3e6f5b3b.xml']}"
+blocks[].fields.xml_attributes.filename,Array,1044322,814.86,"['vertical/vertical_0270f6de40fc.xml', 'vertical/vertical_0270f6de40fc.xml'] | ['vertical/72a7649a078b43a3bc539d62ef145f87.xml', 'vertical/72a7649a078b43a3bc539d62ef145f87.xml'] | ['discussion/501aed9d902349eeb2191fa505548de2.xml', 'discussion/501aed9d902349eeb2191fa505548de2.xml'] | ['html/625da8989bdc4b7fa0acdb98618c98ac.xml', 'html/625da8989bdc4b7fa0acdb98618c98ac.xml'] | ['problem/651e0945b77f42e0a4c89b8c3e6f5b3b.xml', 'problem/651e0945b77f42e0a4c89b8c3e6f5b3b.xml']"
+blocks[].fields.xml_attributes.filename[],Array,1044322,814.86,
+blocks[].fields.xml_attributes.max_score,String,2796,2.18,2 | 1
+blocks[].fields.xml_attributes.title,String,699,0.55,Embedded Code Box
+blocks[].fields.xqa_key,String,9786,7.64,qaijS3UatK020Wc0sfCtFe0V6jpB4d64
+blocks[].fields.youtube_id_0_75,String,11084,8.65, | xGKlr7nT_Zw
+blocks[].fields.youtube_id_1_0,String,1121249,874.89, | XdKO4axZ1Z8 | 5snjMcYO_Y4 | 3_yD_cEKoCk | zUsONPSY8xY
+blocks[].fields.youtube_id_1_25,String,11084,8.65, | XGsB9bA6rGU
+blocks[].fields.youtube_id_1_5,String,11084,8.65, | _HuIF16HdTA
+edited_by,Long,128159,100.0,{'$numberLong': '20'} | {'$numberLong': '106'} | {'$numberLong': '108'} | {'$numberLong': '104'} | {'$numberLong': '105'}
+edited_by.$numberLong,String,127972,99.85,104 | 105 | 106 | 108 | 20
+edited_on,Date,128159,100.0,{'$date': '2015-08-07T13:03:29.806-0500'} | {'$date': '2015-08-07T12:03:25.530-0500'} | {'$date': '2015-08-07T12:32:19.152-0500'} | {'$date': '2015-08-07T12:03:25.545-0500'} | {'$date': '2015-08-07T12:32:19.141-0500'}
+edited_on.$date,String,128159,100.0,2015-08-07T12:03:25.545-0500 | 2015-08-07T12:32:19.141-0500 | 2015-08-07T12:32:19.152-0500 | 2015-08-07T13:03:29.806-0500 | 2015-08-07T12:03:25.530-0500
+original_version,ObjectId,128159,100.0,{'$oid': '55c4f2f1ec4a8977f7a31a0c'} | {'$oid': '55c4f2f1ec4a8977f7a31a0f'} | {'$oid': '55c7ef16ec4a897814a31a08'} | {'$oid': '55c4e4ddec4a897835a31a0b'} | {'$oid': '55c4e4ddec4a897835a31a08'}
+original_version.$oid,String,128159,100.0,55c4f2f1ec4a8977f7a31a0f | 55c7ef16ec4a897814a31a08 | 55c4e4ddec4a897835a31a08 | 55c4f2f1ec4a8977f7a31a0c | 55c4e4ddec4a897835a31a0b
+previous_version,ObjectId,128159,100.0,None | {'$oid': '55c7ef16ec4a897814a31a0b'} | {'$oid': '55c7ef16ec4a897814a31a08'} | {'$oid': '55c4e4ddec4a897835a31a0b'} | {'$oid': '55c4e4ddec4a897835a31a08'}
+previous_version.$oid,String,127981,99.86,55c4eba3ec4a89783ca31a0c | 55c7ef16ec4a897814a31a0b | 55c7ef16ec4a897814a31a08 | 55c4e4ddec4a897835a31a08 | 55c4e4ddec4a897835a31a0b
+root,Array,128159,100.0,"['course', 'course'] | ['library', 'library']"
+root[],Array,128159,100.0,
+schema_version,Integer,128159,100.0,1
